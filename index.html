@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <title>Ranjana's Portfolio</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="#">Ranjana chaudhary</a>
+        </div>
+        <ul class="navbar-nav mobile">
+          <li class="nav-item "><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+           <li class="nav-item"><a href="#contact-form" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#workexprience" class="nav-link">WorkExprience</a ></li>
+          <li class="nav-item"><a href="#site-report" class="nav-link">Site Report</a></li>
+        </ul>
+        <div class="menu-bar" onclick="Menu();">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav><!--navbar-->
+    </div>
+  </header><!--site-header-->
+
+  <main class="site-content">
+    <section class="hero-block" id="home">
+      <div class="container">
+        <div class="hero-row">
+          <div class="hero-col hero-right">
+            <div class="hero-block__media">
+              <img src="images/profile-pic.jpg" alt="Profile Picture">
+            </div>
+          </div>
+          <div class="hero-col">
+            <div class="hero-block__content">
+              <span class="text-a">Hello!</span>
+              <h1>i am <span> ranjana chaudhary</span></h1>
+              <p>Welcome to my website.I am networking student of Nami college .</p>
+              <p>Thank You.</p>
+              <div class="btn-wrap">
+                <a href="#contact-form" class="btn-primary">Contact me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--hero-block-->
+
+    <section class="portfolio-block" id="portfolio">
+      <div class="container">
+        <header class="block-title text-center">
+          <h2>Portfolio</h2>
+        </header><!--block-title-->
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <div class="portfolio-card">
+              <div class="portfolio-card__media">
+                <img src="images/bird.jpg" alt="Portfolio1">
+              </div>
+              <div class="portfolio-card__content">
+                <h3>Bird</h3>
+                <p>Vertebrate animals with feathers, wings, and beaks are known as birds. They have a skeletal skeleton, just like other vertebrates do. The majority of birds can fly, but some bird cannot, despite having wings.</p>
+              </div>
+            </div><!--portfolio-card-->
+          </div><!--portfolio-col-->
+          <div class="portfolio-col">
+            <div class="portfolio-card">
+              <div class="portfolio-card__media">
+                <img src="images/waterfall.jpg" alt="Portfolio1">
+              </div>
+              <div class="portfolio-card__content">
+                <h3>waterfall</h3>
+                <p>A waterfall is a point in a river or stream where water flows over a vertical drop or a series of steep drops. Waterfalls also occur where meltwater drops over the edge of a tabular iceberg or ice shelf.</p>
+              </div>
+            </div><!--portfolio-card-->
+          </div><!--portfolio-col-->
+          <div class="portfolio-col">
+            <div class="portfolio-card">
+              <div class="portfolio-card__media">
+                <img src="images/dewdrop.jpg" alt="Portfolio1">
+              </div>
+              <div class="portfolio-card__content">
+                <h3>Dewdrop</h3>
+                <p> Dew is small drops of water that form on the ground during the night.it is formed by condensation of atmospheric water vapours. It happens because temperature drops in the early morning.</p>
+              </div>
+            </div><!--portfolio-card-->
+          </div><!--portfolio-col-->
+          <div class="portfolio-col">
+            <div class="portfolio-card">
+              <div class="portfolio-card__media">
+                <img src="images/flower.jpg" alt="Portfolio1">
+              </div>
+              <div class="portfolio-card__content">
+                <h3>flower</h3>
+                <p> A flower is the bloom or blossom of a plant .it makes the nature so beautiful.Our entire way of life would change if we could clearly see the miracle of a single flower.</p>
+              </div>
+            </div><!--portfolio-card-->
+          </div><!--portfolio-col-->
+          <div class="portfolio-col">
+            <div class="portfolio-card">
+              <div class="portfolio-card__media">
+                <img src="images/sunset.jpg" alt="Portfolio1">
+              </div>
+              <div class="portfolio-card__content">
+                <h3>Sunset</h3>
+                <p>it is the opening music of the night.Every sunset brings the promise of a new dawn.it is also connected with love, life, God,friendship, family,beach, and ocean.</p>
+              </div>
+            </div><!--portfolio-card-->
+          </div><!--portfolio-col-->
+          <div class="portfolio-col">
+            <div class="portfolio-card">
+              <div class="portfolio-card__media">
+                <img src="images/butterfly.jpg" alt="Portfolio1">
+              </div>
+              <div class="portfolio-card__content">
+                <h3>Butterfly</h3>
+                <p>Butterfly are nature's angels.They remind us what a gift it is to be alive.It said to the sun,"They can't stop talking about my transformation.</p>
+              </div>
+            </div><!--portfolio-card-->
+          </div><!--portfolio-col-->
+        </div>
+      </div>
+    </section><!--portfolio-block-->
+
+
+
+ <section class="contact-block" id="contact-form">
+      <div class="container">
+        <header class="block-title text-center">
+          <h2>Contact me</h2>
+        </header><!--block-title-->
+        <div class="form-wrap">
+          <form class="form">
+            <div class="form-group">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Write message"></textarea>
+            </div>
+            <div class="btn-wrap text-center">
+              <button class="btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section><!--contact block-->
+   <section class="cv-block" id="workexprience">
+      <div class="container">
+        <header class="block-title text-center">
+          <h2>WORK EXPRIENCE</h2>
+        </header><!--block-title-->
+        <div class="cv-row">
+          <div class="cv-col">
+            <div class="cv-card">
+              <h4>NEPAL TELECOM</h4>
+              <ul>
+                <li><strong>Working as network engineer:</strong></li>
+                <li># Builds net configuration and connection</li>
+                <li># Trobleshoots of network problem</li>
+                <li># Ip address auditing</li>
+                
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cv-row cv-row--alt">
+          <div class="cv-col">
+            <div class="cv-card">
+              <h4>world-link</h4>
+              <ul>
+                   <li><strong>work as network engineer:</strong></li>
+                <li># prepare and edit necessary database for proactive mointoring.</li>
+                <li># Help NOC/Server with emergency matters in data center.</li>
+                <li># Proactively mointor IP/MPLS,FTTH,WI-FI,Hotspots and wirelwss network insfrastructure.</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--Cv block-->
+
+    
+
+    <section class="report-block" id="site-report">
+      <div class="container">
+        <header class="block-title text-center">
+          <h2>Site report</h2>
+        </header><!--block-title-->
+        <div class="report-content">
+          <div class="wrap">
+            <h2>Index Page</h2>
+            <h3>Web Development</h3>
+            <p>A wide variety of duties, including coding, technical design, and website or application performance, are included in web development. Front-end, back-end, and full-stack web development are the three primary categories. The websites and apps that we access daily using a web browser are the result of web development.The creation of websites is crucial to corporate promotion. Businesses may use it to assist customers become aware of the goods or services they are providing, comprehend why they should buy or use those goods, and pinpoint the characteristics that set their organization apart from rivals.</p>
+            <div class="wrap">
+            <h3>coding</h3>
+            <p>Coding instructs a machine on what to do and how to carry out tasks. The guidelines for creating websites, applications, and other computer-based technologies are provided by programming languages. Each programming language facilitates precise machine-human communication.Many programming languages are used by developers to create websites and applications. To construct website layouts and design features, front-end developers frequently employ HTML, CSS, or JavaScript code.</p>
+            <div class="wrap">
+            <h3>Design and Debbuging</h3>
+            <p>In computer programming and engineering, debugging is a multi-step process that entails locating a problem, tracking down its cause, and then fixing the issue or finding a workaround. Testing the fix or workaround to make sure it functions is the last stage in the debugging process.When a developer is able to find and recreate a code fault in a computer program, the debugging process in software development gets started. The software testing procedure and the full software development lifecycle both include debugging.When a developer is able to find and recreate a code fault in a computer program, the debugging process in software development gets started. The software testing procedure and the full software development lifecycle both include debugging.</p>
+               <div class="wrap">
+            <h3>Reflective  discussion</h3>
+            <p>I am quite happy of myself for successfully trying my hardest for the opportunity I was given to gain new skills as a part of taking CSY1018. Three months have been an amazing experience. I've been intrigued by the concept that we can develop platforms for anything is in our minds just by utilizing some scripts ever since I started learning the fundamentals of HTML and CSS. Every time I make a new page, I feel thrilled, and the greatest thing to do is to debug.if i begin from GitHub. Because I don't comprehend it, I find it challenging. We begin with HTML , CSS and also javascript  as well as the body's background color and the idea of a box element. It's quite simple. We gained greater knowledge about HTML and CSS tags.</p>
+              
+            <h3>screenshot of html</h3>
+            <div class="screenshot">
+              <img src="images/index.jpg" alt="">
+      <h3>screenshot of css:</h3>
+              <img src="images/style1.css.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+       </div>
+     </div>
+     </div>
+    </section>
+  </main><!--site-content-->
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      <span class="copyright">© 2023 | Designed by Ranjana Chaudhary.All rights reserved.</span>
+    </div>
+  </footer><!--site-footer-->
+
+  <script src="main.js"></script>
+</body>
+
+</html>
